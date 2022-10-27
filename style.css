@@ -1,0 +1,241 @@
+body {
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    background-image: url("./bra-lila-bild.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+
+
+.tftp {
+
+
+    background-image: url("./tft5.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.lolp {
+
+
+    background-image: url("./lolbackgrund.png");
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.valop {
+
+
+    background-image: url("./valobackgrund.png");
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 2000px;
+
+}
+
+
+
+
+
+
+header {
+    margin-top: 20px;
+    text-align: center;
+    
+    color: red;
+}
+
+main {
+    
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman',
+}
+
+
+.tftmain
+{
+color: white;
+    
+}
+footer {
+
+    color: yellow;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+a {
+    font-size: 24px;
+}
+
+.three-col-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.lol1 {
+    display: grid;
+    align-items: center;
+    height: 500px;
+
+}
+
+.text111 {
+    margin-bottom: px;
+}
+
+.bilder1 {
+
+    display: block;
+    z-index: 999;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    text-decoration: none;
+    color: red;
+
+
+}
+
+.bilder2:hover {
+    transition-duration: 0.8s;
+    transform: scale(0.8);
+    
+}
+
+.bilder2:not(:hover) {
+
+    transition-duration: 0.8s;
+    transform: scale(1);
+    
+
+}
+
+.gameinfo1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: end;
+
+}
+
+.gameinfo2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+article {
+    margin-bottom: 80px;
+}
+
+
+.gameinfo4 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: end;
+
+
+}
+
+.gameinfo5 {
+
+    margin-bottom: 80px;
+
+
+}
+
+.gameinfo7 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+
+.laddaner {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.homepg {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.pcenter {
+    place-items: center;
+
+}
+
+hr {
+
+    color: darkorchid;
+
+
+}
+
+.bilder2 {
+
+    text-decoration: none;
+    color: red;
+
+}
+
+
+
+.mapentft {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.levelsunits
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.levelrefresh
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pengartft
+
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
